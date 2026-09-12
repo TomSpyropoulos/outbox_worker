@@ -1,0 +1,18 @@
+@host = http://localhost:5135
+
+POST {{host}}/api/loans
+Content-Type: application/json
+
+{
+  "borrowerName": "Ada Lovelace",
+  "amount": 12500.00,
+  "currency": "EUR"
+}
+
+###
+
+# Paste the loanId from the POST response.
+GET {{host}}/api/loans/00000000-0000-0000-0000-000000000000
+Accept: application/json
+
+###

@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="CreditCheck.Worker.Tests/CreditCheck.Worker.Tests.csproj" />
+  <Project Path="CreditCheck.Worker/CreditCheck.Worker.csproj" />
+</Solution>

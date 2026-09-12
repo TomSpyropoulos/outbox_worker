@@ -1,0 +1,5 @@
+**/bin/
+**/obj/
+CreditCheck.Worker.Tests/
+Dockerfile
+.dockerignore
